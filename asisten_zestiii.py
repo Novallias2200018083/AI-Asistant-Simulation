@@ -17,7 +17,7 @@ recognizer = sr.Recognizer()
 wiki_api = wikipediaapi.Wikipedia('AsistenVirtualZestiii/2.0', 'id')
 AUDIO_FILE = "response.mp3"
 NOTES_FILE = "catatan_zestiii.txt"
-API_KEY_CUACA = "a17333c55a5c4e97906103002240207" # Ganti dengan API Key Anda
+API_KEY_CUACA = "a17333c55a5c4e97906103002240207" 
 
 # --- MEMORI KONTEKSTUAL ---
 konteks_terakhir = {
@@ -224,7 +224,6 @@ app.geometry("700x550")
 app.configure(bg="#1c1c1c")
 app.resizable(False, False)
 
-# ... (Sisa kode GUI sama persis dengan versi sebelumnya, salin dari kode lama Anda)
 style = ttk.Style(app)
 style.theme_use('clam')
 style.configure("TButton", font=("Helvetica", 12), padding=10, background="#555", foreground="white")
